@@ -333,7 +333,7 @@ void loop ()
       }
     }
   }
-  calcularMudanca(&Procs[0],0); // verifica as condições de ativação de cada processo (fiz um por um pela estática)
+  calcularMudanca(&Procs[0],0); // verifica as condições de ativação de cada processo (fiz um por um pela estética)
   calcularMudanca(&Procs[1],1);
   calcularMudanca(&Procs[2],2);
   calcularMudanca(&Procs[3],3);

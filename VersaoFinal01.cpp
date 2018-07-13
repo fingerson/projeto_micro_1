@@ -18,7 +18,7 @@ int start; //variável que é setada quando o programa inicia.
 struct pedido // struct de formulário que indica quais informações chegaram pelo bluetooth
 {
   char tipo;// Tipos de formulários possíveis (b) vazio, (s) configurar, (r) retornar, (k) destruir, (a) ativar;
-  int ID; // Indica o processo em questão (0 a 6)
+  int ID; // Indica o processo em questão (0 a 5)
   unsigned long valorLigar; // valor necessário para que o pino de saída do processo vá de 0 a 1
   unsigned long valorDesligar; // valor necessário para que o pino de saída do processo vá de 1 a 0
   int condLigar; // condição para que o pino de saída do processo vá de 0 a 1 (0 - temporização, 1 - pulso de entrada positivo, 2 - pulso de entrada negativo, 3 - threshold positivo, 4 - threshold negativo)
